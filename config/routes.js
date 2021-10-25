@@ -24,6 +24,7 @@ module.exports.routes = {
   '/blocks/number/:blocknumber': { action: 'block/getBlockByNumber' },
   '/blocks/numbers/:blocknumber/:count': { action: 'block/getXBlocksFromNthFromCChain' },
   '/network': { action: 'network/getNetWorkActivity' },
+  '/address/hash/:hash': { action: 'address/getAddressInfoByHash' },
 
 
   /***************************************************************************
