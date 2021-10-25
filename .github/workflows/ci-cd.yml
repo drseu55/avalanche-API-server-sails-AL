@@ -43,7 +43,7 @@ jobs:
       
     - name: Start server
       run:
-        NODE_ENV=production node app.js
+        NODE_ENV=production node app.js &
 
     - name: Run tests
       run: |
