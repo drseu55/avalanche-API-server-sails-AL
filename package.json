@@ -21,8 +21,7 @@
     "web3-utils": "^1.6.0"
   },
   "devDependencies": {
-    "eslint": "5.16.0",
-    "win-node-env": "^0.4.0"
+    "eslint": "5.16.0"
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
