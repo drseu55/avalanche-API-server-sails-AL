@@ -19,6 +19,9 @@
  * https://sailsjs.com/docs/concepts/deployment
  */
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 module.exports = {
 
 
@@ -340,7 +343,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  port: 4444,
+  port: process.env.SERVER_PORT,
 
 
 
