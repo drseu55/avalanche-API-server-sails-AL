@@ -25,6 +25,11 @@ module.exports.routes = {
   '/blocks/numbers/:blocknumber/:count': { action: 'block/getXBlocksFromNthFromCChain' },
   '/network': { action: 'network/getNetWorkActivity' },
   '/address/hash/:hash': { action: 'address/getAddressInfoByHash' },
+  '/transactions/hash/:hash': { action: 'transaction/getTransactionByHash' },
+  '/transactions/:address/:n/:x': { action: 'transaction/getXTransactionsAfterNthFromAddress' },
+  '/transactions/:n/:x': { action: 'transaction/getXPendingTransactionsAfterNth' },
+  '/transactions/recentxchain': { action: 'transaction/getRecentTransactionsFromXChain' },
+  '/transactions/recentpchain': { action: 'transaction/getRecentTransactionsFromPChain' },
 
 
   /***************************************************************************
