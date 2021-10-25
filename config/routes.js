@@ -20,6 +20,9 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
+  '/blocks/hash/:hash': { action: 'block/getBlockByHash' },
+  '/blocks/number/:blocknumber': { action: 'block/getBlockByNumber' },
+  '/blocks/numbers/:blocknumber/:count': { action: 'block/getXBlocksFromNthFromCChain' },
 
 
   /***************************************************************************
