@@ -1,4 +1,4 @@
-/**
+ /**
  * HTTP Server Settings
  * (sails.config.http)
  *
@@ -9,8 +9,9 @@
  * https://sailsjs.com/config/http
  */
 
-module.exports.http = {
 
+module.exports.http = {
+  
   /****************************************************************************
   *                                                                           *
   * Sails/Express middleware to run for every HTTP request.                   *
@@ -28,7 +29,7 @@ module.exports.http = {
     * (This Sails app's routes are handled by the "router" middleware below.)  *
     *                                                                          *
     ***************************************************************************/
-
+     
     // order: [
     //   'cookieParser',
     //   'session',
@@ -55,6 +56,7 @@ module.exports.http = {
     //   return middlewareFn;
     // })(),
 
+  
   },
 
 };

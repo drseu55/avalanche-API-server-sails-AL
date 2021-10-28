@@ -23,8 +23,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-
-
   /**************************************************************************
   *                                                                         *
   * Tell Sails what database(s) it should use in production.                *
